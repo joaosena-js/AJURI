@@ -38,7 +38,9 @@
   <div class="shell">
     <aside class="sidebar" id="sidebar">
       <div class="brand">
-        <div class="brand-mark"></div>
+        <div class="brand-mark">
+          <img src="assets/img/logo-ajuri.png" alt="Logo do AJURI Patrimônio">
+        </div>
         <div class="brand-text">
           <span class="kicker">Cartilha · 2ª edição</span>
           <h1>AJURI Patrimônio</h1>
@@ -64,7 +66,6 @@
         <a href="#inventario"><span class="tag c-green">07</span>Inventário</a>
         <a href="#virada"><span class="tag c-yellow">08</span>Virada de ano</a>
         <a href="#videos"><span class="tag c-video">▶</span>Vídeo-tutoriais</a>
-        <a href="#videos"><span class="tag c-video">▶</span>Material de apoio</a>
       </nav>
 
       <div class="sidebar-foot">
@@ -78,7 +79,7 @@
     <main>
       <div class="hero">
         <span class="eyebrow">Sistema Eletrônico de Controle Patrimonial</span>
-        <h1>AJURI Patrimônio, passo a passo.</h1>
+        <h1>AJURI Patrimônio</h1>
         <p class="lead">Guia interativo com os procedimentos oficiais de gestão de bens móveis do Poder Executivo do
           Amazonas — da recepção da nota fiscal até a virada de ano, na ordem em que acontecem no dia a dia do
           patrimônio.</p>
@@ -332,17 +333,6 @@
           </details>
 
           <details class="acc">
-            <summary>Tombamento de veículos <span class="badge">busca automática no Detran</span></summary>
-            <div class="acc-body">
-              <p>Ao digitar o tipo de veículo no campo <span class="field">Material</span>, aparece o campo obrigatório
-                <span class="field">Nº Renavam</span>. Informando o Renavam, o sistema busca automaticamente no banco de
-                dados do Detran as características do veículo. Clique em <strong>Cadastrar</strong> e o veículo está
-                tombado.
-              </p>
-            </div>
-          </details>
-
-          <details class="acc">
             <summary>Material que não foi recepcionado no almoxarifado <span class="badge">tombamento direto</span>
             </summary>
             <div class="acc-body">
@@ -374,6 +364,17 @@
                 <div><strong>Importante</strong>Solicite antes à SEAD, por e-mail, a catalogação do material a ser
                   tombado: <a href="mailto:dbm.patrimonio@sead.am.gov.br">dbm.patrimonio@sead.am.gov.br</a></div>
               </div>
+            </div>
+          </details>
+
+          <details class="acc">
+            <summary>Tombamento de veículos <span class="badge">busca automática no Detran</span></summary>
+            <div class="acc-body">
+              <p>Ao digitar o tipo de veículo no campo <span class="field">Material</span>, aparece o campo obrigatório
+                <span class="field">Nº Renavam</span>. Informando o Renavam, o sistema busca automaticamente no banco de
+                dados do Detran as características do veículo. Clique em <strong>Cadastrar</strong> e o veículo está
+                tombado.
+              </p>
             </div>
           </details>
         </section>
@@ -1243,14 +1244,6 @@
               <p class="chapter-sub">Um vídeo curto do YouTube para cada assunto da cartilha, na mesma ordem dos
                 capítulos ao lado.</p>
             </div>
-          </div>
-
-          <div class="callout importante">
-            <span class="icon">i</span>
-            <div><strong>Como cadastrar os vídeos</strong> Esta aba já está pronta para receber os links do YouTube.
-              Abra o arquivo <code>assets/js/script.js</code>, localize a lista <code>videoLibrary</code> perto do
-              topo do arquivo e cole o link de cada vídeo no campo <code>url</code> correspondente. Os cartões abaixo
-              são atualizados automaticamente — nenhum outro arquivo precisa ser alterado.</div>
           </div>
 
           <div class="video-grid" id="videoGrid"></div>
